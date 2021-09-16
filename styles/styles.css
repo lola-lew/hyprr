@@ -1,16 +1,27 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
-.gradient {
-    position: relative;
-    width: 100%;
-    height: 100vh;
+@font-face {
+  font-family: poppins;
+  src: url(fonts/Poppins-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
 }
 
 .logo {
-    width: 40%;
-    
+  font-family: poppins;
+  font-size: 8rem;
+  position: relative;
+}
+
+#punto {
+  color: rgb(212, 254, 163);
+}
+
+.gradient {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
 }
