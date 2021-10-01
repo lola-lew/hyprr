@@ -10,27 +10,42 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: sharpGrotesk;
+  src: url(fonts/SharpGroteskBook25.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
 .logo {
   font-family: poppins;
-  font-size: 8rem;
-  position: relative;
+  font-size: 8.7rem;
 }
 
 #punto {
   color: rgb(212, 254, 163);
 }
 
-.gradient {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
+.subtitle {
+  font-family: sharpGrotesk;
+  font-size: 1.4rem;
 }
 
-.hero-image {
-  background-image: url("/img/gradient.png"); /* The image used */
+.comingsoon {
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+  font-size: 1.3rem;
+}
+
+.endfooter {
+  font-family: sharpGrotesk;
+  font-size: 0.6rem;
+}
+.gradient-image {
   background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
+  background-image: url("/img/gradient.png"); /* The image used */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  height: 100vh; /* You must set a specified height */
 }
